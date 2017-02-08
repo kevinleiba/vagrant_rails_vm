@@ -39,11 +39,12 @@ Then, you will need to download this [vagrant box] by running this command:
 
 ### Provision
 
-Create a vm directory: `mkdir vm_directory`
-
-Go to this directory: `cd vm_directory`
-
-Lunch install: `vagrant up --provision`
+```bash
+git clone https://github.com/Kokiwi/vagrant_rails_vm.git
+cd vagrant_rails_vm
+vagrant up --provision
+vagrant ssh
+```
 
 ### Good to know
 
