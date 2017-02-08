@@ -18,7 +18,8 @@ This vm also has __node.js__ installed with __npm__ and __bower__
 You'll want to connect the vm in ssh to access a virtual linux machine that runs __rails__ applications
 
 ```bash
-cd path/to/vm_directory
+git clone https://github.com/Kokiwi/vagrant_rails_vm.git
+cd vagrant_rails_vm
 vagrant up
 vagrant ssh
 ```
